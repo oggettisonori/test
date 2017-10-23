@@ -1,3 +1,10 @@
+
+    
+    customElements.define('x-mpc', CustomMPCElement);
+customElements.define('x-pad', CustomPadElement);
+  
+
+
 class CustomMPCElement extends HTMLElement {
   constructor() {
     super();
@@ -9,6 +16,7 @@ class CustomMPCElement extends HTMLElement {
     window.addEventListener('keydown', this.onInputStart);
     window.addEventListener('keyup', this.onInputStop);
   }
+    
 
   disconnectedCallback() {
     window.addEventListener('keydown', this.onInputStart);
@@ -85,5 +93,5 @@ class CustomPadElement extends HTMLElement {
   }
 }
 
-customElements.define('x-mpc', CustomMPCElement);
-customElements.define('x-pad', CustomPadElement);
+
+

@@ -1,4 +1,4 @@
-import { audioContext } from './audio-context.js';
+import { audioContext } from './audiocontext.js';
 
 
 export class CustomPadElement extends HTMLElement {

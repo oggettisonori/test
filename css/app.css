@@ -1,14 +1,4 @@
-:root {
-  
-  color: #fff;
-  font: 300 14px / 1.2 Helvetica Neue, sans-serif;
-}
 
-*,
-*::after,
-*::before {
-  box-sizing: border-box;
-}
 
 body {
   align-items: center;
@@ -16,19 +6,21 @@ body {
   justify-content: center;
     margin: auto;
  transform: scale(0.7);
-  
+    background: url(http://www.fortimagination.com/wp-content/uploads/2015/02/Cloud-Web-Background5.jpg);
+  background-position: center;
+    background-size: 100%;
 }
 
 .mpc {
   
   display: grid;
     margin: auto;
-    margin-top: 4rem;
+    margin-top: auto;
   
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
   padding: 2rem;
-  width: 90%; 
+  width: 100%; 
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background: url(http://www.tondin-serramenti.it/images/collezioni/porte/essenze-finiture/Laccato_Bianco_RAL_9010_opaco.png);
    border-radius: 20px; 

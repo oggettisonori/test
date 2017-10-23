@@ -14,26 +14,44 @@ body {
   align-items: center;
   display: flex;
   justify-content: center;
-  height: 100vh;
-  margin: 0;
+    margin: auto;
+ 
+  
 }
 
 .mpc {
+  
   display: grid;
-  grid-gap: 4rem;
+    margin: auto;
+    margin-top: 4rem;
+  
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  padding: 8rem;
-  width: 100%;    
+  padding: 2rem;
+  width: 90%; 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background: url(http://www.tondin-serramenti.it/images/collezioni/porte/essenze-finiture/Laccato_Bianco_RAL_9010_opaco.png);
+   border-radius: 20px; 
+    background-repeat: repeat;
+    background-position: center;
+    
+        
 }
 
-.mpc :img {
- opacity: 0;   
-}
 
 
-
-.mpc__pad--active {
+.mpc #on {
+  display: none 
   
-  transition-duration: 0s;
+}
+
+
+.mpc__pad--active #off {
+  display: none 
+  
+}
+
+.mpc__pad--active #on {
+  display: grid; 
+  
 }

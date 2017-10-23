@@ -24,19 +24,16 @@ body {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
   padding: 8rem;
-  width: 100%;
+  width: 100%;    
 }
 
-.mpc__pad {
-  align-items: center;
-  background-color: #333;
-  border: 1px solid #666;
-  display: flex;
-  justify-content: center;
-  transition: background-color .1s linear;
+.mpc :img {
+ opacity: 0;   
 }
+
+
 
 .mpc__pad--active {
-  background-color: #f80;
+  
   transition-duration: 0s;
 }

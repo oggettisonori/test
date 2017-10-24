@@ -9,7 +9,7 @@ body {
     overflow-y: hidden;
   
  background-color:deepskyblue;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
     
 }
 
@@ -73,7 +73,7 @@ display: grid;
 	    
 	    
   display:block;
-       
+        
       
   
        
@@ -84,7 +84,8 @@ display: grid;
   
   transform: scale(0.7);
   display:block;
-              
+    margin-left: -5%;            
+      
                
    
 }
@@ -92,6 +93,9 @@ display: grid;
             #alert img {width: 100%;
             padding-top: 25%;
             }	
+            
+            
+            
 }
 
 

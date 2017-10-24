@@ -20,7 +20,7 @@ body {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
   padding: 3vw;
-  width: 100vw; 
+  width: 105vw; 
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color:floralwhite;
    border-radius: 20px; 

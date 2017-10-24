@@ -8,29 +8,39 @@ body {
  transform: scale(0.8);
     
   
- background-color: deepskyblue;
+ background-color:aliceblue;
    
 }
 
 .mpc {
-  
+  text-align: center;
   display: grid;
-    margin: auto;
+    
     margin-top: auto;
   
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  padding: 2rem;
+  padding: 7vw;
   width: 100%; 
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color: cornsilk;
    border-radius: 20px; 
-    background-repeat: repeat;
-    background-position: center;
+    
+    
     
         
 }
 
+.mpc img {
+  height: 18vw;
+    padding: 2vw;
+  
+    
+    
+   
+   
+  
+}
 
 
 .mpc #on {
@@ -45,8 +55,9 @@ body {
 }
 
 .mpc__pad--active #on {
-  display: grid; 
-
+  
+display: grid;
+    margin: auto;
     
   
 }

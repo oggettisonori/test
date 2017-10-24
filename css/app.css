@@ -1,5 +1,4 @@
 
-
 body {
   align-items: center;
   display: flex;
@@ -8,7 +7,7 @@ body {
  transform: scale(0.8);
     overflow-y: hidden;
   
- background-color:deepskyblue;
+ background-color:aliceblue;
    
     
 }

@@ -9,6 +9,7 @@ body {
     background: url(http://www.clipartsfree.net/svg/simple-clouds_Clipart_svg_File.svg);
   background-position: center;
     background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .mpc {
